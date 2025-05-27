@@ -1,4 +1,4 @@
-# Mobius Strip Visualization and Analysis
+# Mobius Strip Visualization, Surface Area and Edge Length Calculation
 
 This project provides a Python implementation to visualize a Möbius strip and calculate its surface area and edge length.
 
