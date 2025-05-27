@@ -94,7 +94,8 @@ class MobiusStrip:
         edge_length, _ = integrate.quad(lambda u: speed(u, v_boundary), 0, 2 * np.pi)
 
         return edge_length
-
+        
+# Create a Mobius strip instance and perform visualization and calculations
 mobius = MobiusStrip(radius=1.0, width=0.5, resolution=30)
 mobius.visualize()
 area = mobius.surface_area()
