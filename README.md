@@ -37,6 +37,7 @@ The surface area of the Möbius strip is approximated using numerical integratio
 1. **Partial Derivatives**: Calculates the partial derivatives of the Möbius strip's parametric equations with respect to the parameters `u` and `v`.
 2. **Cross Product**: Computes the cross product of the partial derivatives to obtain the differential area element.
 3. **Integration**: Uses `scipy.integrate.dblquad` to integrate the magnitude of the cross product over the parameter space, yielding the total surface area.
+![Output](https://github.com/user-attachments/assets/f7a23d8e-7f1e-49cd-b438-5237011dd8ee)
 
 
 ---
